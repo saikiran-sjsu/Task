@@ -1,0 +1,19 @@
+{% extends "base.html"%}
+{% block content %}
+
+<h1>Register for Task Organizer</h1>
+<form action="">
+    <p>{{form.name.label}}<br>{{form.name(size=32)}}</p>
+    <p>{{form.email.label}}<br>{{form.email(size=32)}}</p>
+    <p>{{form.password.label}}<br>{{form.password(size=32)}}</p>
+    <p>{{form.submit()}}</p>
+
+
+
+
+
+</form>
+<button type="button" name="home" onclick="window.location.href = '/home'; ">Go Home</button>
+
+
+{% endblock%}
