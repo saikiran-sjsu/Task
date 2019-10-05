@@ -1,1 +1,1 @@
-from flask import Flask
+from myapp import db

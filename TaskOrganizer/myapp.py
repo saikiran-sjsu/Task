@@ -1,7 +1,8 @@
 from flask import Flask
 from flask import render_template
 from form import Login
-from form import Register
+from form import RegisterForm
+
 from flask_sqlalchemy import SQLAlchemy
 # uncomment line below once you have created the
 # TopCities class inside the form.py file
@@ -34,7 +35,7 @@ def home():
 def register():
 
     title = 'Register'
-    form = Register()
+    form = RegisterForm()
     return render_template('register.html', title=title, form=form)
 
 
