@@ -1,1 +1,1 @@
-web: gunicorn myapprun:app
+web: python3 myapprun.py
