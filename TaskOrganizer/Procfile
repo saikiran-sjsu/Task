@@ -1,1 +1,1 @@
-web gunicorn myapprun:app
+web gunicorn app:myapprun
